@@ -1,0 +1,111 @@
+@import url("https://fonts.googleapis.com/css2?family=Economica:wght@400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 62.3%;
+  font-family: "Economica", sans-serif;
+  background-color: #ddd;
+  color: #1b1b1b;
+}
+.card-wrapper {
+  width: 400px;
+  background-color: #fff;
+  margin: 50px auto;
+  padding: 7px;
+  overflow: hidden;
+  border-radius: 6px;
+  box-shadow: 5px 5px 30px 10px rgba(0, 0, 0, 0.1);
+}
+
+.card-wrapper .card-imge {
+  width: 100%;
+  height: 450px;
+  overflow: hidden;
+  border-radius: 10px;
+  margin-bottom: 15px;
+  cursor: pointer;
+  position: relative;
+}
+.card-imge img {
+  width: 100%;
+  height: 100%;
+  margin-bottom: 7px;
+}
+.card-imge #imdb-ratting {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 7px;
+  font-size: 20px;
+  font-weight: 700;
+  font-style: italic;
+  background-color: rgb(149, 51, 51);
+  color: #fff;
+  border-radius: 10px 0 10px 0;
+}
+.card-imge #rotten-rate {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 7px;
+  font-size: 20px;
+  font-weight: 700;
+  font-style: italic;
+  background-color: rgb(16, 16, 101);
+  color: #fff;
+  border-radius: 0 10px 0 10px;
+}
+
+.card-details h1 {
+  font-size: 2rem;
+  text-align: left;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin-bottom: 5px;
+}
+
+.card-details p {
+  text-align: justify;
+  margin-bottom: 15px;
+  font-size: 0.8rem;
+}
+.p-first {
+  color: brown;
+  font-weight: 500;
+  text-align: left;
+  font-size: 1.3rem;
+  font-weight: 500;
+}
+.card-details a {
+  text-decoration: none;
+  background-color: brown;
+  color: #fff;
+  font-size: 1.4rem;
+  display: block;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 500;
+  letter-spacing: 1.6px;
+  border-radius: 3px;
+  padding: 3px 0;
+}
+
+.card-details a:hover,
+.card-details a:link {
+  background-color: rgb(102, 41, 41);
+  color: #ffffff;
+}
+/* .card-details a:visited {
+  background-color: rgb(88, 88, 125);
+  color: aqua;
+} */
+.logo {
+  margin-right: 20px;
+  font-size: 1.7rem;
+  text-align: center;
+}
